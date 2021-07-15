@@ -31,7 +31,7 @@ if(btnK != undefined){
             btnK.click();
         }
     }, 500);
-}else if(location.hostname === "https://yandex.ru/"){ 
+}else if(location.hostname === "yandex.ru"){ 
     let links = document.links; 
     let goNext = true;
     let site = getCookie("site"); 
